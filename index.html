@@ -1,108 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="Pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imobiliária de alto padrão em Indaiatuba</title>
-
-    <link rel="stylesheet" href="/css/cssexterno.css">
+    <title>Web Site</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <img src="img/2.png" alt="logo" width="40%" height="80%">
+        <nav class="navigation">
+            <a class="logo" href="#">F<span>oo</span>D P<span>ee</span>K</a>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                        <li><a href="#imoveis">Imóveis</a></li>
-                        <li><a href="#sobre">Sobre</a></li>
-                        <li><a href="#contato">Contato</a></li>
-                    
-                </ul>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#">Home</a></li>
+                <li class="nav-item"><a href="#">Menu</a></li>
+                <li class="nav-item"><a href="#">About</a></li>
+                <li class="nav-item"><a href="#">Contato</a></li>
+                <i class='bx bx-search'></i>             
+            </ul>
 
-            </nav>
-        </div>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
     </header>
 
-    <section id="topo">
-        <div class="container">
-            <h2>Seu sonho se realiza aqui </h2>
-            <p>Temos a casa de condomínio perfeita pra você</p>
-            <a href="#imoveis" class="btn">Ver Imoveís</a>  
-        </div>
+    <main>
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Bem-vindo ao FooD PeeK</h4>
+                <h1 class="text-h1">Que tal testar a mais prazerosa experiência só mordida?</h1>
+                <p>Pão de gergilim , maionese especial , com uma camada de cebola , hamburguer com 120 g de pura carne bovina suculenta envolto com alface e rodelas de tomate </p>
+                <a href="#" class="home-btn">Seus Pedidos</a>
+            </div> 
 
-    </section>
+            <div class="home-img">
+                <img src="imagem.png" alt="Profile Hamburguer">
 
-
-
-    <section id="imoveis">
-        <div class="container">
-            <h2><center>Imoveís em destaque.</center> </h2>
-            
-            <div class="imoveis">
-                <img src="img/pexels-photo-280222.jpg" alt="Casa 1">
-                <h3>Condominio Helvetia Park</h3>
-                <p><center>Condomínio nobre em Indaiatuba</center></p>
-                <span class="price"><center>R$ 2.500.000,00</center></span>
             </div>
-
-            <div class="imoveis">
-                <img src="img/pexels-photo-323772.webp" alt="Casa 2">
-                <h3>Condominio Helvetia Park</h3>
-                <p><center>Condomínio nobre em Indaiatuba</center></p>
-                <span class="price"><center>R$ 1.500.000,00</center></span>
-            </div>
-
-            <div class="imoveis">
-                <img src="img/pexels-photo-323780.webp" alt="Casa 3">
-                <h3>Condominio Helvetia Park</h3>
-                <p><center>Condomínio nobre em Indaiatuba</center></p>
-                <span class="price"><center>R$ 7.500.000,00</center></span>
-            </div>
-
-            <div class="imoveis">
-                <img src="img/pexels-photo-323781.jpg" alt="Casa 4">
-                <h3>Condominio Helvetia Park</h3>
-                <p><center>Condomínio nobre em Indaiatuba</center></p>
-                <span class="price"><center>R$ 1.000.000,00</center></span>
-            </div>           
-            
-        </div>
-
-        <section id="sobre">
-            <div class="container">
-                <h2>Quem somos nós</h2>
-                <p>Somos uma empresa de familia criada sobre valores de respeitos,
-                    hombridade e bons costumes. Procuramos obter resultados por 
-                    meios dos nossos valores e fidelização , obtendo dos nossos clientes 
-                    respeito e boa-fé...somos resielntes e fazemos tudo dentro do nosso possivél ]
-                    para se ter os melhores junto com os melhores.
-                </p>
-                <p>Especialistas em imovéis de alto padrão , estamos localizados 
-                    na cidade Indaiatuba-SP.
-                </p>
-            </div>
-        </section>
-
-        <section id="contato">
-            <div class="container">
-                <h2>Fale Conosco</h2>
-                <a href="https://wa.me/11967803964" class="btn">WhasAPP</a>
-                <br>
-                <!--Colocar um form com dados de nome, e-mail e telefone 
-                mas entrar com o back end para indexação deste form com a página. -->
-            </div>
-        </section>
-
-        <footer>
-            <div class="container">
-                Todos os direitos reservados para imoveis Indaiatuba <br>
-                <!--colocar uma img para colocar a link e a foto do instagran-->
-                 
-            </div>
-        </footer>
-
+            </section>
+    </main>
     
+<script src="scritp.js"></script>
 </body>
 </html>
